@@ -12,13 +12,15 @@ import logo from "./assets/logo.svg"
 export default function BottomCard() {
     return (
         <>
-            <div className="flex flex-row justify-between hide-scrollbar" style={hideScrollbarStyles}>
+            <div className="flex flex-row justify-between hide-scrollbar relative" style={hideScrollbarStyles}>
+                <div className="">
                 <Image
                     loading="lazy"
                     src={logo}
-                    className="aspect-[1.09] max-w-16"
+                    className="aspect-[1.09] max-w-16 absolute bottom-10"
                     alt="new"
                 />
+                </div>
                 <div className="flex justify-between gap-5 mt-10 items-end max-md:max-w-full max-md:flex-wrap max-md:justify-center w-[500px]">
                     <div className="flex p-5 space-x-4 overflow-x-scroll hide-scrollbar">
                         <div className="min-w-[300px] shadow bg-white self-stretch flex grow basis-[0%] flex-col p-5 rounded-xl hover:scale-105 transition">
