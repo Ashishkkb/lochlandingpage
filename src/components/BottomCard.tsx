@@ -37,7 +37,7 @@ export default function BottomCard() {
                                 watching into one unified app.”
                             </div>
                         </div>
-                        <div className="min-w-[300px] shadow bg-white self-stretch flex grow basis-[0%] flex-col p-5 rounded-xl hover:scale-105 transition">
+                        <div className="w-max shadow bg-white self-stretch flex grow basis-[0%] flex-col p-5 rounded-xl hover:scale-105 transition">
                             <div className="items-stretch flex justify-between gap-2">
                                 <div className="text-zinc-900 text-base font-semibold leading-5 whitespace-nowrap">
                                     Yash P
@@ -51,7 +51,7 @@ export default function BottomCard() {
                                 crypto whale trends markets without it. {`I'm`} addicted!”
                             </div>
                         </div>
-                        <div className="min-w-[300px] shadow bg-white self-stretch flex grow basis-[0%] flex-col p-5 rounded-xl hover:scale-105 transition">
+                        <div className="w-max shadow bg-white self-stretch flex grow basis-[0%] flex-col p-5 rounded-xl hover:scale-105 transition">
                             <div className="items-stretch flex justify-between gap-2">
                                 <div className="text-zinc-900 text-base font-semibold leading-5 whitespace-nowrap">
                                     Shiv S
@@ -60,8 +60,8 @@ export default function BottomCard() {
                                     Co-Founder Magik Labs
                                 </div>
                             </div>
-                            <div className="text-neutral-800 text-base font-medium leading-5 mt-5">
-                                “Managing my own portfolio is helpful and well designed. What’s really interesting is watching the whales though. No one else has made whale tracking so simple.”
+                            <div className="text-neutral-800 text-base font-medium leading-5 mt-5 w-max">
+                                “Managing my own portfolio is helpful and well designed.<br/> What’s really interesting is watching the whales though. <br/> No one else has made whale tracking so simple.”
                             </div>
                         </div>
                     </div>
