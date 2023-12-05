@@ -60,9 +60,9 @@ export default function LandingPage() {
                                                 <div className="text-zinc-100 text-3xl font-medium leading-9 self-stretch mt-4">
                                                     Get notified when a highly correlated whale makes a move
                                                 </div>
-                                                <div className="text-zinc-100 text-base font-medium leading-5 self-stretch mt-5 opacity-70">
-                                                    Find out when a certain whale moves more than any preset
-                                                    amount on-chain or when a dormant whale you care about
+                                                <div className="text-zinc-100 text-base font-medium leading-5 self-stretch mt-5 opacity-70 w-max">
+                                                    Find out when a certain whale moves<br /> more than any preset
+                                                    amount on-chain or<br /> when a dormant whale you care about<br />
                                                     becomes active.
                                                 </div>
                                             </div>
@@ -94,9 +94,7 @@ export default function LandingPage() {
                                                     </div>
                                                 </div>
                                                 <div className="text-zinc-100 text-right text-base font-medium leading-5 self-stretch mt-5 max-md:max-w-full opacity-70">
-                                                    All whales are not equal.<br /> Know exactly what the whales
-                                                    <br />
-                                                    impacting YOUR portfolio are doing.
+                                                    All whales are not equal. Know exactly <br />what the whales impacting YOUR <br />portfolio are doing.
                                                 </div>
                                             </div>
                                         </div>
