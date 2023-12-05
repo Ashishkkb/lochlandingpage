@@ -2,19 +2,34 @@ import Image from "next/image";
 import bell2 from "./assets/bell2.svg"
 import analytics from "./assets/analytics.svg"
 import time from "./assets/time.svg"
+import { useState } from "react";
 
 
 
 
 
-export default function TopBar() {
+export default function TopBar(props:{rotate: any , setRotate: any}) {
     const hideScrollbarStyles = {
         /* WebKit (Chrome, Safari) */
         scrollbarColor: 'transparent transparent',
     };
+
+    const [scrollX, setScrollX] = useState(0);
+
+    const handleScroll = (event: React.UIEvent<HTMLDivElement>) => {
+        const scrollValue = event.currentTarget.scrollLeft;
+        const roundedScrollValue = Math.round(scrollValue); // Round to the nearest integer
+        const limitedScrollValue = Math.max(0, Math.min(roundedScrollValue, 180)); // Limiting rotation to 0 to 180 degrees
+        props.setRotate(limitedScrollValue*2);
+      };
+      
+    console.log(props.rotate ," rotation value")
+
     return (
         <>
-            <div className="flex flex-row justify-between overflow-x-scroll hide-scrollbar bg-opacity-40 rounded-lg w-[400px]" style={hideScrollbarStyles}>
+            <div className="flex flex-row justify-between overflow-x-scroll hide-scrollbar bg-opacity-40 rounded-lg w-[400px]" style={hideScrollbarStyles}
+            onScroll={handleScroll}
+            >
                 <div className="flex flex-row justify-between ">
                     <div className="flex flex-col items-stretch min-w-[200px] ml-5">
                         <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[180px] hover:scale-105 transition">

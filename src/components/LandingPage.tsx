@@ -15,6 +15,7 @@ import { useRouter } from "next/navigation";
 export default function LandingPage() {
     const [email, setEmail] = React.useState<string>('');
     const router = useRouter();
+    const [rotate, setRotate] = React.useState(0);
   
     const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
       setEmail(event.target.value);
@@ -40,6 +41,10 @@ export default function LandingPage() {
       // Your form submission code goes here
     };
 
+    const RotateClass={
+        transform: `rotate(${rotate}deg)`
+    }
+
     return (
         <div className="bg-black ">
             <div className="bg-new-bg">
@@ -54,8 +59,9 @@ export default function LandingPage() {
                                                 <Image
                                                     loading="lazy"
                                                     src={bell}
-                                                    className="aspect-[1.06]"
+                                                    className={`aspect-[1.06]`}
                                                     alt="new"
+                                                    style={RotateClass}
                                                 />
                                                 <div className="text-zinc-100 text-3xl font-medium leading-9 self-stretch mt-4">
                                                     Get notified when a highly correlated whale makes a move
@@ -67,7 +73,7 @@ export default function LandingPage() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <TopBar />
+                                        <TopBar rotate={rotate} setRotate={setRotate}/>
                                     </div>
                                 </div>
                                 <div className="self-stretch max-md:max-w-full max-md:pr-5">
