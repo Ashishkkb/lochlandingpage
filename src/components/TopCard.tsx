@@ -36,7 +36,7 @@ export default function TopBar() {
                                 <br />
                                 here
                             </div>
-                            <div className="items-stretch bg-neutral-200 bg-opacity-50 self-stretch flex justify-between gap-1 mt-4 pl-1 pr-6 py-1.5 rounded-sm max-md:pr-5">
+                            <div className="items-stretch bg-white bg-opacity-50 self-stretch flex justify-between gap-1 mt-7 pl-1 pr-6 py-1.5 rounded-sm max-md:pr-5 text-sm  border border-[color:var(--grey-100,#E5E5E6)]">
                                 hello@gmail.com
                             </div>
                         </div>

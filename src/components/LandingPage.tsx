@@ -76,7 +76,7 @@ export default function LandingPage() {
                                             <Image
                                                     loading="lazy"
                                                     src={feature}
-                                                    className="aspect-[1.09] object-contain  overflow-hidden grow max-md:mt-10"
+                                                    className="aspect-[1.09] min-w-[500px] min-h-[500px]"
                                                     alt="new"
                                             />
                                         </div>
@@ -94,8 +94,10 @@ export default function LandingPage() {
                                                     </div>
                                                 </div>
                                                 <div className="text-zinc-100 text-right text-base font-medium leading-5 self-stretch mt-5 max-md:max-w-full">
-                                                    All whales are not equal. Know exactly what the whales
-                                                    impacting YOUR portfolio are doing.
+                                                    All whales are not equal. Know exactly what 
+                                                    <br />
+                                                    the whales
+                                                    impacting YOUR<br /> portfolio are doing.
                                                 </div>
                                             </div>
                                         </div>
