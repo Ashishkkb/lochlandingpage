@@ -50,7 +50,7 @@ export default function LandingPage() {
                                 <div className="self-stretch max-md:max-w-full max-md:pr-5">
                                     <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                                         <div className="flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0 justify-between">
-                                            <div className="flex grow flex-col items-start mt-2 max-md:mt-3.5">
+                                            <div className="flex grow flex-col items-start mt-2 max-md:mt-3.5 w-[80%]">
                                                 <Image
                                                     loading="lazy"
                                                     src={bell}
@@ -67,9 +67,7 @@ export default function LandingPage() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="w-[400px] ml-10">
                                         <TopBar />
-                                        </div>
                                     </div>
                                 </div>
                                 <div className="self-stretch max-md:max-w-full max-md:pr-5">
@@ -96,10 +94,9 @@ export default function LandingPage() {
                                                     </div>
                                                 </div>
                                                 <div className="text-zinc-100 text-right text-base font-medium leading-5 self-stretch mt-5 max-md:max-w-full opacity-70">
-                                                    All whales are not equal. Know exactly what 
+                                                    All whales are not equal.<br /> Know exactly what the whales
                                                     <br />
-                                                    the whales
-                                                    impacting YOUR<br /> portfolio are doing.
+                                                    impacting YOUR portfolio are doing.
                                                 </div>
                                             </div>
                                         </div>

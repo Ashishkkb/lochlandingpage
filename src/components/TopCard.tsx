@@ -14,7 +14,7 @@ export default function TopBar() {
     };
     return (
         <>
-            <div className="flex flex-row justify-between overflow-x-scroll hide-scrollbar bg-opacity-40 rounded-lg " style={hideScrollbarStyles}>
+            <div className="flex flex-row justify-between overflow-x-scroll hide-scrollbar bg-opacity-40 rounded-lg w-[400px]" style={hideScrollbarStyles}>
                 <div className="flex flex-row justify-between ">
                     <div className="flex flex-col items-stretch min-w-[200px] ml-5">
                         <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[180px] hover:scale-105 transition">
