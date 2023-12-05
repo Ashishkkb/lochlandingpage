@@ -45,12 +45,12 @@ export default function LandingPage() {
             <div className="bg-new-bg">
                 <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 bg-dark-bg">
                     <div className="flex flex-col items-stretch w-3/5 max-md:w-full max-md:ml-0">
-                        <div className="flex grow flex-col items-stretch w-full py-12 max-md:max-w-full">
-                            <div className="flex flex-col mt-9 px-16 items-end max-md:max-w-full max-md:px-5">
+                        <div className="flex grow flex-col items-stretch w-full py-6 max-md:max-w-full">
+                            <div className="flex flex-col px-16 items-end max-md:max-w-full max-md:px-5">
                                 <div className="self-stretch max-md:max-w-full max-md:pr-5">
                                     <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                                         <div className="flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
-                                            <div className="flex grow flex-col items-start max-md:mt-3.5">
+                                            <div className="flex grow flex-col items-start mt-2 max-md:mt-3.5">
                                                 <Image
                                                     loading="lazy"
                                                     src={bell}
@@ -60,7 +60,7 @@ export default function LandingPage() {
                                                 <div className="text-zinc-100 text-3xl font-medium leading-9 self-stretch mt-4">
                                                     Get notified when a highly correlated whale makes a move
                                                 </div>
-                                                <div className="text-zinc-100 text-base font-medium leading-5 self-stretch mt-5">
+                                                <div className="text-zinc-100 text-base font-medium leading-5 self-stretch mt-5 opacity-70">
                                                     Find out when a certain whale moves more than any preset
                                                     amount on-chain or when a dormant whale you care about
                                                     becomes active.
@@ -70,13 +70,13 @@ export default function LandingPage() {
                                         <TopBar />
                                     </div>
                                 </div>
-                                <div className="self-stretch mt-20 max-md:max-w-full max-md:mt-10">
+                                <div className="self-stretch max-md:max-w-full max-md:pr-5">
                                     <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-                                        <div className="flex flex-col items-stretch w-[43%] max-md:w-full max-md:ml-0">
+                                        <div className="flex flex-col items-stretch max-md:w-full max-md:ml-0">
                                             <Image
                                                     loading="lazy"
                                                     src={feature}
-                                                    className="aspect-[1.09] min-w-[500px] min-h-[500px]"
+                                                    className="-ml-20 min-w-[500px]"
                                                     alt="new"
                                             />
                                         </div>
@@ -93,7 +93,7 @@ export default function LandingPage() {
                                                         Watch what the whales are doing
                                                     </div>
                                                 </div>
-                                                <div className="text-zinc-100 text-right text-base font-medium leading-5 self-stretch mt-5 max-md:max-w-full">
+                                                <div className="text-zinc-100 text-right text-base font-medium leading-5 self-stretch mt-5 max-md:max-w-full opacity-70">
                                                     All whales are not equal. Know exactly what 
                                                     <br />
                                                     the whales
@@ -103,7 +103,7 @@ export default function LandingPage() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="text-zinc-100 text-right text-2xl font-medium leading-8 w-[400px] max-w-full mr-36 mt-7 max-md:mr-2.5">
+                                <div className="text-zinc-100 text-right text-2xl font-medium leading-8 w-[400px] max-w-full max-md:mr-2.5">
                                     Testimonials
                                 </div>
                             </div>

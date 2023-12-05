@@ -14,10 +14,10 @@ export default function TopBar() {
     };
     return (
         <>
-            <div className="flex flex-row justify-between hide-scrollbar bg-opacity-40 rounded-lg relative" style={hideScrollbarStyles}>
+            <div className="flex flex-row justify-between overflow-x-scroll hide-scrollbar bg-opacity-40 rounded-lg relative" style={hideScrollbarStyles}>
                 <div className="flex flex-row justify-between">
                     <div className="flex flex-col items-stretch min-w-[200px] ml-5">
-                        <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[200px] hover:scale-105 transition">
+                        <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[180px] hover:scale-105 transition">
                             <div className="flex items-stretch justify-between gap-5">
                                 <Image
                                     loading="lazy"
@@ -42,7 +42,7 @@ export default function TopBar() {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch min-w-[200px] ml-5">
-                        <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[200px] hover:scale-105 transition">
+                        <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[180px] hover:scale-105 transition">
                             <div className="flex items-stretch justify-between gap-5">
                                 <Image
                                     loading="lazy"
@@ -70,7 +70,7 @@ export default function TopBar() {
                         </div>
                     </div>
                     <div className="flex flex-col items-stretch min-w-[200px] ml-5">
-                        <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[200px] hover:scale-105 transition">
+                        <div className="shadow flex w-full flex-col items-stretch mt-1.5 mx-auto p-3.5 rounded-lg max-md:mt-5 bg-white h-[180px] hover:scale-105 transition">
                             <div className="flex items-stretch justify-between gap-5">
                                 <Image
                                     loading="lazy"

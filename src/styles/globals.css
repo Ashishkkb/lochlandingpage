@@ -18,7 +18,7 @@
 
 /* WebKit-specific styles */
 .hide-scrollbar::-webkit-scrollbar {
-  width: 12px; /* Adjust as needed */
+  width: 0px; /* Adjust as needed */
 }
 
 .hide-scrollbar::-webkit-scrollbar-thumb {
@@ -28,3 +28,5 @@
 .hide-scrollbar::-webkit-scrollbar-track {
   background-color: transparent;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100&display=swap');
